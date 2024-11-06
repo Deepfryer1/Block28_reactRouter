@@ -1,4 +1,5 @@
-*{ font-family: arial, sans-serif;
+* {
+  font-family: arial, sans-serif;
   margin: 0;
 }
 body,
@@ -18,6 +19,10 @@ body > div {
   padding: 2em;
   justify-content: space-evenly;
 }
+#navbar * {
+  font-size: 2rem;
+  border: 6px solid black;
+}
 #main-section {
   flex-grow: 1;
 }
@@ -30,8 +35,17 @@ body > div {
 .red {
   background-color: #b05f6d;
   color: white;
+  border: 6px solid black;
+  font-size: 2rem;
 }
 .blue {
   background-color: #275db3;
   color: white;
+  border: 6px solid black;
+  font-size: 2rem;
+}
+.home {
+  color: crimson;
+  background-color: #6633994f;
+  border: 6px solid black;
 }
